@@ -9,6 +9,7 @@ p6 = Publication("Broadway Press")
 p7 = Publication("Downhill Publishers")
 p8 = Publication("Kingfisher Inc")
 db.session.add_all([p1,p2,p3,p4,p5,p6,p7,p8])
+print("tring to undersrtand github")
 
 b1 = Book("Miky's Delivery Service", "William Dobelli", 3.9, "ePub", "broom-145379.svg", 123, 1)
 b2 = Book("The Secret Life of Walter Kitty", "Kitty Stiller", 4.1, "Hardcover", "cat-150306.svg", 133, 1)
